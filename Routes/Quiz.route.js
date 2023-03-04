@@ -33,7 +33,7 @@ QuizRouter.post("/add",async(req,res)=>{
     try{
         await QuizModel.insertMany(quizData)
         
-        res.send("quiz has been  added")
+        res.send(data)
     }
     catch(err){
         console.log(err)
