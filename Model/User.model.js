@@ -4,6 +4,10 @@ const UserSchema=mongoose.Schema({
     email:String,
     password:String,
     avtar:String,
+    level:String,
+    wrong:Number,
+    correct:Number,
+    score:Number,
     administration:Boolean
 });
 
